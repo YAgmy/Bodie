@@ -103,31 +103,13 @@ body {
 .our-work li:not(.active):hover {
     color: var(--btn-color);
 }
-.our-work .box {
+.our-work .shuffle-imgs {
     padding: 5px;
     overflow: hidden;
     position: relative;
 }
-.our-work .box img {
+.our-work .shuffle-imgs img {
     width: 100%;
-}
-.our-work .box::before {
-    content: attr(data-work);
-    position: absolute;
-    width: calc(100% - 10px);
-    height: calc(100% - 10px);
-    background-color:#33d1cca1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 25px;
-    color: #fff;
-    transition: 0.3s;
-    transform: translateY(calc(100% - -5px));
-}
-.our-work .box:hover::before {
-    transform: translateX(0)
 }
 
 
@@ -156,7 +138,7 @@ body {
 .team h2 {
     color: var(--yellow-color);
 }
-.team .box h4 {
+.team .shuffle-imgs h4 {
     background-color: var(--id-color)
 }
 .team .row blockquote {
