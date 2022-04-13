@@ -1,2 +1,2 @@
 # Bondi
-Using HTML, CSS, J query and Bootstrap.
+Using HTML , CSS, J query and Bootstrap.
